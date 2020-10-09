@@ -1,6 +1,5 @@
-/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
-/// @DnDHash : 66477ED3
-/// @DnDArgument : "expr" "1"
-/// @DnDArgument : "var" "CanMove"
-CanMove = 1;
+/// @DnDHash : 116B5C7B
+/// @DnDArgument : "code" "CanMove = true"
+CanMove = true
