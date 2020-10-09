@@ -1,7 +1,7 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 42EBF681
-/// @DnDArgument : "code" "self.depth = -y$(13_10)$(13_10)if y > 750$(13_10)	y = 750$(13_10)if y < 340$(13_10)	y = 340$(13_10)$(13_10)if hspeed > 0$(13_10)	lastdir = 1$(13_10)if hspeed < 0 $(13_10)	lastdir = -1$(13_10)$(13_10)direction = point_direction(x, y, Player1_Parent.x, Player1_Parent.y)	$(13_10)$(13_10)if sprite_index == s_AspergeSmallDies$(13_10){$(13_10)	if image_index == 1$(13_10)	{$(13_10)		speed -= 10$(13_10)	}$(13_10)} $(13_10)else$(13_10){$(13_10)	image_xscale = lastdir$(13_10)}$(13_10)$(13_10)if sprite_index == s_AspergeSmallRun$(13_10){$(13_10)	if point_distance(x, y, Player1_Parent.x, Player1_Parent.y) < 250$(13_10)	{$(13_10)			sprite_index = s_DravStand$(13_10)			speed = 0	$(13_10)	}$(13_10)	else$(13_10)	{$(13_10)		speed = 3$(13_10)		sprite_index = s_AspergeSmallRun$(13_10)	}$(13_10)}$(13_10)$(13_10)//stand$(13_10)if sprite_index == s_DravStand$(13_10){$(13_10)	if point_distance(x, y, Player1_Parent.x, Player1_Parent.y) >= 250$(13_10)	{$(13_10)		speed = 3$(13_10)		sprite_index = s_AspergeSmallRun	$(13_10)	}$(13_10)}"
+/// @DnDArgument : "code" "self.depth = -y$(13_10)$(13_10)if y > 750$(13_10)	y = 750$(13_10)if y < 340$(13_10)	y = 340$(13_10)$(13_10)if hspeed > 0$(13_10)	lastdir = 1$(13_10)if hspeed < 0 $(13_10)	lastdir = -1$(13_10)$(13_10)direction = point_direction(x, y, Player1_Parent.x, Player1_Parent.y)	$(13_10)$(13_10)if sprite_index == s_AspergeSmallDies$(13_10){$(13_10)	if image_index == 1$(13_10)	{$(13_10)		speed -= 10$(13_10)	}$(13_10)} $(13_10)else$(13_10){$(13_10)	image_xscale = lastdir$(13_10)}$(13_10)$(13_10)if sprite_index == s_AspergeSmallRun$(13_10){$(13_10)	if point_distance(x, y, Player1_Parent.x, Player1_Parent.y) < 250$(13_10)	{$(13_10)			sprite_index = s_AspergeSmallAttack$(13_10)			speed = 0	$(13_10)	}$(13_10)	else$(13_10)	{$(13_10)		speed = 3$(13_10)		sprite_index = s_AspergeSmallRun$(13_10)	}$(13_10)}$(13_10)$(13_10)//stand$(13_10)if sprite_index == s_AspergeSmallAttack$(13_10){$(13_10)	if point_distance(x, y, Player1_Parent.x, Player1_Parent.y) >= 250$(13_10)	{$(13_10)		speed = 3$(13_10)		sprite_index = s_AspergeSmallRun	$(13_10)	}$(13_10)}"
 self.depth = -y
 
 if y > 750
@@ -32,7 +32,7 @@ if sprite_index == s_AspergeSmallRun
 {
 	if point_distance(x, y, Player1_Parent.x, Player1_Parent.y) < 250
 	{
-			sprite_index = s_DravStand
+			sprite_index = s_AspergeSmallAttack
 			speed = 0	
 	}
 	else
@@ -43,7 +43,7 @@ if sprite_index == s_AspergeSmallRun
 }
 
 //stand
-if sprite_index == s_DravStand
+if sprite_index == s_AspergeSmallAttack
 {
 	if point_distance(x, y, Player1_Parent.x, Player1_Parent.y) >= 250
 	{

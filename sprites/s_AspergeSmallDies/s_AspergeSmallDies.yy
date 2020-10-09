@@ -138,7 +138,7 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 500,
+    "xorigin": 512,
     "yorigin": 1500,
     "eventToFunction": {},
     "eventStubScript": null,

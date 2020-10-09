@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"s_FrameMart","path":"sprites/s_FrameMart/s_FrameMart.yy",},"order":13,},
+    {"id":{"name":"s_AspergeSmallAttack","path":"sprites/s_AspergeSmallAttack/s_AspergeSmallAttack.yy",},"order":23,},
     {"id":{"name":"s_DraffAttack","path":"sprites/s_DraffAttack/s_DraffAttack.yy",},"order":4,},
     {"id":{"name":"s_MartWalkShoot","path":"sprites/s_MartWalkShoot/s_MartWalkShoot.yy",},"order":15,},
     {"id":{"name":"s_SelectFrame","path":"sprites/s_SelectFrame/s_SelectFrame.yy",},"order":9,},
@@ -21,6 +22,7 @@
     {"id":{"name":"CharacterSelectRoom","path":"sprites/CharacterSelectRoom/CharacterSelectRoom.yy",},"order":16,},
     {"id":{"name":"Dravis","path":"objects/Dravis/Dravis.yy",},"order":11,},
     {"id":{"name":"s_MartIdle","path":"sprites/s_MartIdle/s_MartIdle.yy",},"order":16,},
+    {"id":{"name":"s_DravAttack","path":"sprites/s_DravAttack/s_DravAttack.yy",},"order":22,},
     {"id":{"name":"s_HitBoxSprite","path":"sprites/s_HitBoxSprite/s_HitBoxSprite.yy",},"order":6,},
     {"id":{"name":"s_HitMart","path":"sprites/s_HitMart/s_HitMart.yy",},"order":18,},
     {"id":{"name":"s_MartWalkShooty","path":"sprites/s_MartWalkShooty/s_MartWalkShooty.yy",},"order":17,},
