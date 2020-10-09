@@ -18,6 +18,7 @@
     {"id":{"name":"HitboxMart","path":"objects/HitboxMart/HitboxMart.yy",},"order":10,},
     {"id":{"name":"s_DraffWalk","path":"sprites/s_DraffWalk/s_DraffWalk.yy",},"order":3,},
     {"id":{"name":"CharacterSelectRoom","path":"sprites/CharacterSelectRoom/CharacterSelectRoom.yy",},"order":16,},
+    {"id":{"name":"Dravis","path":"objects/Dravis/Dravis.yy",},"order":11,},
     {"id":{"name":"s_MartIdle","path":"sprites/s_MartIdle/s_MartIdle.yy",},"order":16,},
     {"id":{"name":"s_HitBoxSprite","path":"sprites/s_HitBoxSprite/s_HitBoxSprite.yy",},"order":6,},
     {"id":{"name":"s_HitMart","path":"sprites/s_HitMart/s_HitMart.yy",},"order":18,},
