@@ -31,6 +31,7 @@
     {"id":{"name":"s_AspergeSmallRun","path":"sprites/s_AspergeSmallRun/s_AspergeSmallRun.yy",},"order":21,},
     {"id":{"name":"s_BG_city1","path":"sprites/s_BG_city1/s_BG_city1.yy",},"order":7,},
     {"id":{"name":"GameControl","path":"objects/GameControl/GameControl.yy",},"order":7,},
+    {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},"order":0,},
     {"id":{"name":"s_DravRuns","path":"sprites/s_DravRuns/s_DravRuns.yy",},"order":2,},
     {"id":{"name":"s_MartyShootIdle","path":"sprites/s_MartyShootIdle/s_MartyShootIdle.yy",},"order":19,},
     {"id":{"name":"PreviewMart","path":"objects/PreviewMart/PreviewMart.yy",},"order":6,},

@@ -26,7 +26,7 @@
     {"isDnD":true,"eventNum":2,"eventType":2,"collisionObjectId":null,"parent":{"name":"CharacterSelectControl","path":"objects/CharacterSelectControl/CharacterSelectControl.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":40,"eventType":5,"collisionObjectId":null,"parent":{"name":"CharacterSelectControl","path":"objects/CharacterSelectControl/CharacterSelectControl.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":38,"eventType":5,"collisionObjectId":null,"parent":{"name":"CharacterSelectControl","path":"objects/CharacterSelectControl/CharacterSelectControl.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":true,"eventNum":32,"eventType":9,"collisionObjectId":null,"parent":{"name":"CharacterSelectControl","path":"objects/CharacterSelectControl/CharacterSelectControl.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":13,"eventType":9,"collisionObjectId":null,"parent":{"name":"CharacterSelectControl","path":"objects/CharacterSelectControl/CharacterSelectControl.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

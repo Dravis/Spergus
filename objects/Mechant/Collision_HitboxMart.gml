@@ -61,9 +61,9 @@ if(y > Player1_Parent.y-100)
 				/// @DnDVersion : 1
 				/// @DnDHash : 7194C560
 				/// @DnDParent : 3B6433BC
-				/// @DnDArgument : "spriteind" "s_DravDies"
-				/// @DnDSaveInfo : "spriteind" "s_DravDies"
-				sprite_index = s_DravDies;
+				/// @DnDArgument : "spriteind" "s_AspergeSmallDies"
+				/// @DnDSaveInfo : "spriteind" "s_AspergeSmallDies"
+				sprite_index = s_AspergeSmallDies;
 				image_index = 0;
 			}
 		}

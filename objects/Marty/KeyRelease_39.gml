@@ -11,15 +11,6 @@ if(hspeed > 0)
 	/// @DnDParent : 6F5B278F
 	speed = 0;
 
-	/// @DnDAction : YoYo Games.Instances.Set_Sprite
-	/// @DnDVersion : 1
-	/// @DnDHash : 20C2035E
-	/// @DnDParent : 6F5B278F
-	/// @DnDArgument : "spriteind" "MartIdle"
-	/// @DnDSaveInfo : "spriteind" "MartIdle"
-	sprite_index = MartIdle;
-	image_index = 0;
-
 	/// @DnDAction : YoYo Games.Instances.Sprite_Scale
 	/// @DnDVersion : 1
 	/// @DnDHash : 19198F1D

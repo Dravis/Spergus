@@ -1,5 +1,5 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 517C1240
-/// @DnDArgument : "var" "Shooting"
-Shooting = 0;
+/// @DnDHash : 1334BBFF
+/// @DnDArgument : "var" "CanShoot"
+CanShoot = 0;
