@@ -1,18 +1,9 @@
-/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
-/// @DnDHash : 3B9A5380
-/// @DnDArgument : "var" "self.lastdir"
-self.lastdir = 0;
+/// @DnDHash : 3B86FE41
+/// @DnDArgument : "code" "lastdir = 0$(13_10)healths = 100$(13_10)Flashy = 0$(13_10)$(13_10)state = "run""
+lastdir = 0
+healths = 100
+Flashy = 0
 
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 29BB4E23
-/// @DnDArgument : "expr" "100"
-/// @DnDArgument : "var" "self.healths"
-self.healths = 100;
-
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 63C1DE11
-/// @DnDArgument : "var" "Flashy"
-Flashy = 0;
+state = "run"

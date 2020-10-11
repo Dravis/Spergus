@@ -2,7 +2,9 @@
   "resources": [
     {"id":{"name":"s_FrameMart","path":"sprites/s_FrameMart/s_FrameMart.yy",},"order":13,},
     {"id":{"name":"s_AspergeSmallAttack","path":"sprites/s_AspergeSmallAttack/s_AspergeSmallAttack.yy",},"order":23,},
+    {"id":{"name":"s_DravSmashStomp","path":"sprites/s_DravSmashStomp/s_DravSmashStomp.yy",},"order":26,},
     {"id":{"name":"s_DraffAttack","path":"sprites/s_DraffAttack/s_DraffAttack.yy",},"order":4,},
+    {"id":{"name":"s_DravSmashJump","path":"sprites/s_DravSmashJump/s_DravSmashJump.yy",},"order":25,},
     {"id":{"name":"s_MartWalkShoot","path":"sprites/s_MartWalkShoot/s_MartWalkShoot.yy",},"order":15,},
     {"id":{"name":"s_SelectFrame","path":"sprites/s_SelectFrame/s_SelectFrame.yy",},"order":9,},
     {"id":{"name":"s_FrameDraff","path":"sprites/s_FrameDraff/s_FrameDraff.yy",},"order":11,},
