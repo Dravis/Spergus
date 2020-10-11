@@ -1,0 +1,158 @@
+{
+  "bboxMode": 0,
+  "collisionKind": 1,
+  "type": 0,
+  "origin": 9,
+  "preMultiplyAlpha": false,
+  "edgeFiltering": false,
+  "collisionTolerance": 0,
+  "swfPrecision": 2.525,
+  "bbox_left": 17,
+  "bbox_right": 427,
+  "bbox_top": 17,
+  "bbox_bottom": 678,
+  "HTile": false,
+  "VTile": false,
+  "For3D": false,
+  "width": 428,
+  "height": 699,
+  "textureGroupId": {
+    "name": "Default",
+    "path": "texturegroups/Default",
+  },
+  "swatchColours": null,
+  "gridX": 0,
+  "gridY": 0,
+  "frames": [
+    {"compositeImage":{"FrameId":{"name":"f0ff32af-5190-4126-b123-113a62d749af","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f0ff32af-5190-4126-b123-113a62d749af","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"LayerId":{"name":"fd3f2373-007f-4bca-854a-f558c97201b5","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_DraffPotatoWalk","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","name":"f0ff32af-5190-4126-b123-113a62d749af","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"d39044da-42c4-488b-89d4-b2fe4f4836b3","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d39044da-42c4-488b-89d4-b2fe4f4836b3","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"LayerId":{"name":"fd3f2373-007f-4bca-854a-f558c97201b5","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_DraffPotatoWalk","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","name":"d39044da-42c4-488b-89d4-b2fe4f4836b3","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"0b62c79b-7526-4918-ac86-9d95936edf15","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"0b62c79b-7526-4918-ac86-9d95936edf15","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"LayerId":{"name":"fd3f2373-007f-4bca-854a-f558c97201b5","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_DraffPotatoWalk","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","name":"0b62c79b-7526-4918-ac86-9d95936edf15","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"24124114-bd5c-49f7-8a87-6264fa44d797","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"24124114-bd5c-49f7-8a87-6264fa44d797","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"LayerId":{"name":"fd3f2373-007f-4bca-854a-f558c97201b5","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_DraffPotatoWalk","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","name":"24124114-bd5c-49f7-8a87-6264fa44d797","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"8c532231-8457-4380-b73a-0c2e609985c9","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"8c532231-8457-4380-b73a-0c2e609985c9","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"LayerId":{"name":"fd3f2373-007f-4bca-854a-f558c97201b5","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_DraffPotatoWalk","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","name":"8c532231-8457-4380-b73a-0c2e609985c9","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"da388cb4-e66a-4ee1-832b-5d75ab4a2735","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"da388cb4-e66a-4ee1-832b-5d75ab4a2735","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"LayerId":{"name":"fd3f2373-007f-4bca-854a-f558c97201b5","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_DraffPotatoWalk","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","name":"da388cb4-e66a-4ee1-832b-5d75ab4a2735","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"dece0bef-38a2-4319-9131-fbc5db75b2cd","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"dece0bef-38a2-4319-9131-fbc5db75b2cd","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"LayerId":{"name":"fd3f2373-007f-4bca-854a-f558c97201b5","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_DraffPotatoWalk","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","name":"dece0bef-38a2-4319-9131-fbc5db75b2cd","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"db455cf9-baec-4f09-9f5a-154c11e1c37f","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"db455cf9-baec-4f09-9f5a-154c11e1c37f","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"LayerId":{"name":"fd3f2373-007f-4bca-854a-f558c97201b5","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_DraffPotatoWalk","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","name":"db455cf9-baec-4f09-9f5a-154c11e1c37f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"bec078c3-d53c-4186-82e6-338b66a6737e","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"bec078c3-d53c-4186-82e6-338b66a6737e","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"LayerId":{"name":"fd3f2373-007f-4bca-854a-f558c97201b5","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_DraffPotatoWalk","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","name":"bec078c3-d53c-4186-82e6-338b66a6737e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"3ef2c9f3-4886-408b-926d-f76b30c35110","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"3ef2c9f3-4886-408b-926d-f76b30c35110","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"LayerId":{"name":"fd3f2373-007f-4bca-854a-f558c97201b5","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_DraffPotatoWalk","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","name":"3ef2c9f3-4886-408b-926d-f76b30c35110","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"0f3243bb-e974-40d2-b469-c3817b47b607","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"0f3243bb-e974-40d2-b469-c3817b47b607","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"LayerId":{"name":"fd3f2373-007f-4bca-854a-f558c97201b5","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_DraffPotatoWalk","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","name":"0f3243bb-e974-40d2-b469-c3817b47b607","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"1790fbe1-4c67-4f67-9b2f-c04100de47f7","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"1790fbe1-4c67-4f67-9b2f-c04100de47f7","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"LayerId":{"name":"fd3f2373-007f-4bca-854a-f558c97201b5","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_DraffPotatoWalk","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","name":"1790fbe1-4c67-4f67-9b2f-c04100de47f7","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"f09a17de-c114-473a-83e2-75720b10b50e","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f09a17de-c114-473a-83e2-75720b10b50e","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"LayerId":{"name":"fd3f2373-007f-4bca-854a-f558c97201b5","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_DraffPotatoWalk","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","name":"f09a17de-c114-473a-83e2-75720b10b50e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"efc72c14-6545-4cd1-97d8-5cce84bc1fc4","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"efc72c14-6545-4cd1-97d8-5cce84bc1fc4","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"LayerId":{"name":"fd3f2373-007f-4bca-854a-f558c97201b5","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_DraffPotatoWalk","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","name":"efc72c14-6545-4cd1-97d8-5cce84bc1fc4","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"2502ff5f-8365-48c9-aacd-3e1cd615799d","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"2502ff5f-8365-48c9-aacd-3e1cd615799d","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"LayerId":{"name":"fd3f2373-007f-4bca-854a-f558c97201b5","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_DraffPotatoWalk","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","name":"2502ff5f-8365-48c9-aacd-3e1cd615799d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"ad16a3c8-50f2-4a00-b4f5-8ac679bafddc","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"ad16a3c8-50f2-4a00-b4f5-8ac679bafddc","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"LayerId":{"name":"fd3f2373-007f-4bca-854a-f558c97201b5","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_DraffPotatoWalk","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","name":"ad16a3c8-50f2-4a00-b4f5-8ac679bafddc","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"2828fe34-3585-4dc3-aff3-7f7d86d79831","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"2828fe34-3585-4dc3-aff3-7f7d86d79831","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"LayerId":{"name":"fd3f2373-007f-4bca-854a-f558c97201b5","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_DraffPotatoWalk","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","name":"2828fe34-3585-4dc3-aff3-7f7d86d79831","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"80131d32-b6f5-4305-b957-7377f63387ce","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"80131d32-b6f5-4305-b957-7377f63387ce","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"LayerId":{"name":"fd3f2373-007f-4bca-854a-f558c97201b5","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_DraffPotatoWalk","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","name":"80131d32-b6f5-4305-b957-7377f63387ce","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"095fd09a-e028-4df4-a416-81421afa84f0","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"095fd09a-e028-4df4-a416-81421afa84f0","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"LayerId":{"name":"fd3f2373-007f-4bca-854a-f558c97201b5","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_DraffPotatoWalk","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","name":"095fd09a-e028-4df4-a416-81421afa84f0","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a3925c29-84cb-44cc-ac27-c4a4a7209f6a","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a3925c29-84cb-44cc-ac27-c4a4a7209f6a","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"LayerId":{"name":"fd3f2373-007f-4bca-854a-f558c97201b5","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_DraffPotatoWalk","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","name":"a3925c29-84cb-44cc-ac27-c4a4a7209f6a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"70b5d371-862c-4f9e-a8d2-41cd917168a5","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"70b5d371-862c-4f9e-a8d2-41cd917168a5","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"LayerId":{"name":"fd3f2373-007f-4bca-854a-f558c97201b5","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_DraffPotatoWalk","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","name":"70b5d371-862c-4f9e-a8d2-41cd917168a5","tags":[],"resourceType":"GMSpriteFrame",},
+  ],
+  "sequence": {
+    "spriteId": {"name":"s_DraffPotatoWalk","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},
+    "timeUnits": 1,
+    "playback": 1,
+    "playbackSpeed": 25.0,
+    "playbackSpeedType": 0,
+    "autoRecord": true,
+    "volume": 1.0,
+    "length": 21.0,
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
+    "tracks": [
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"b8b39aee-2dbd-4741-ac57-cb395b7db6f2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f0ff32af-5190-4126-b123-113a62d749af","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"064fe932-5efa-4730-af46-5ae5a3c2f008","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d39044da-42c4-488b-89d4-b2fe4f4836b3","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"064dce61-fcf9-4871-bfb0-46cd38b3a772","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0b62c79b-7526-4918-ac86-9d95936edf15","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"ec159b79-1d7f-4a35-89c1-d85a4f377ab6","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"24124114-bd5c-49f7-8a87-6264fa44d797","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"fd73e7b9-d7b2-4aaf-a43b-e4fcadd06372","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8c532231-8457-4380-b73a-0c2e609985c9","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"3e681385-9df2-4f83-9996-6d339ed75458","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"da388cb4-e66a-4ee1-832b-5d75ab4a2735","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"247911e0-30f4-45ae-afc2-d4e8c1db76d8","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"dece0bef-38a2-4319-9131-fbc5db75b2cd","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"77d91163-b105-4ff7-ad1e-86a282622311","Key":7.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"db455cf9-baec-4f09-9f5a-154c11e1c37f","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"9d7a0777-c99b-4b3c-a31c-2b6b86150852","Key":8.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bec078c3-d53c-4186-82e6-338b66a6737e","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"8f277015-e166-4549-8142-4021076cfdc9","Key":9.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3ef2c9f3-4886-408b-926d-f76b30c35110","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"044ec8dd-0015-4f84-a7f1-ed326037604a","Key":10.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0f3243bb-e974-40d2-b469-c3817b47b607","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"ab775b48-8669-4195-8153-5e563c8251d1","Key":11.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1790fbe1-4c67-4f67-9b2f-c04100de47f7","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"b0156ecc-e67e-4d89-8d29-27702d36ce56","Key":12.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f09a17de-c114-473a-83e2-75720b10b50e","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"108051ca-82b2-4b99-980f-b66937c54a5f","Key":13.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"efc72c14-6545-4cd1-97d8-5cce84bc1fc4","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"a691574d-cf08-445a-ab6b-c8b7b8e2f8f1","Key":14.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2502ff5f-8365-48c9-aacd-3e1cd615799d","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"6c9c435e-6f11-4796-91f0-cdc26f848f04","Key":15.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ad16a3c8-50f2-4a00-b4f5-8ac679bafddc","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"4eb46f99-ab6f-4b8c-99f5-e325746ae652","Key":16.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2828fe34-3585-4dc3-aff3-7f7d86d79831","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"3a9f7bbb-cbd3-4d7b-82d9-6254bf181d97","Key":17.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"80131d32-b6f5-4305-b957-7377f63387ce","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"58fe37d4-2f3d-4221-aeeb-ef2a4f34306f","Key":18.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"095fd09a-e028-4df4-a416-81421afa84f0","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"af4d180d-9763-40cd-9179-8ca695d4760b","Key":19.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a3925c29-84cb-44cc-ac27-c4a4a7209f6a","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"14adaee0-c558-4215-ad29-2b6a6449d140","Key":20.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"70b5d371-862c-4f9e-a8d2-41cd917168a5","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+    ],
+    "visibleRange": null,
+    "lockOrigin": false,
+    "showBackdrop": true,
+    "showBackdropImage": false,
+    "backdropImagePath": "",
+    "backdropImageOpacity": 0.5,
+    "backdropWidth": 1366,
+    "backdropHeight": 768,
+    "backdropXOffset": 0.0,
+    "backdropYOffset": 0.0,
+    "xorigin": 205,
+    "yorigin": 350,
+    "eventToFunction": {},
+    "eventStubScript": null,
+    "parent": {"name":"s_DraffPotatoWalk","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},
+    "resourceVersion": "1.3",
+    "name": "s_DraffPotatoWalk",
+    "tags": [],
+    "resourceType": "GMSequence",
+  },
+  "layers": [
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"fd3f2373-007f-4bca-854a-f558c97201b5","tags":[],"resourceType":"GMImageLayer",},
+  ],
+  "parent": {
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "s_DraffPotatoWalk",
+  "tags": [],
+  "resourceType": "GMSprite",
+}
