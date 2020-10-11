@@ -1,23 +1,9 @@
-/// @DnDAction : YoYo Games.Drawing.Draw_Self
+/// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
-/// @DnDHash : 411F901C
-draw_self();
+/// @DnDHash : 224712E1
+/// @DnDArgument : "code" "alarm[0] = 30$(13_10)canMove = true$(13_10)$(13_10)hp = 75$(13_10)maxHp = 100"
+alarm[0] = 30
+canMove = true
 
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 39641D3D
-/// @DnDArgument : "expr" "1"
-/// @DnDArgument : "var" "lastdir"
-lastdir = 1;
-
-/// @DnDAction : YoYo Games.Instances.Set_Alarm
-/// @DnDVersion : 1
-/// @DnDHash : 1AD4B825
-alarm_set(0, 30);
-
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 413FF4CB
-/// @DnDArgument : "expr" "true"
-/// @DnDArgument : "var" "canMove"
-canMove = true;
+hp = 75
+maxHp = 100

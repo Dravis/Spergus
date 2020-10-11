@@ -1,38 +1,13 @@
-/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
-/// @DnDHash : 71536515
-/// @DnDArgument : "expr" "s_MartIdle"
-/// @DnDArgument : "var" "Sprite_index"
-Sprite_index = s_MartIdle;
+/// @DnDHash : 10F0746C
+/// @DnDArgument : "code" "Sprite_index = s_MartIdle$(13_10)CanStartShoot = 1$(13_10)Shooting = 0$(13_10)CanShoot = 1$(13_10)lastdir = 1$(13_10)alarm[0] = 30$(13_10)$(13_10)hp = 75$(13_10)maxHp = 100 "
+Sprite_index = s_MartIdle
+CanStartShoot = 1
+Shooting = 0
+CanShoot = 1
+lastdir = 1
+alarm[0] = 30
 
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 1351B9F1
-/// @DnDArgument : "expr" "1"
-/// @DnDArgument : "var" "CanStartShoot"
-CanStartShoot = 1;
-
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 640201E7
-/// @DnDArgument : "var" "Shooting"
-Shooting = 0;
-
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 77C8B7EC
-/// @DnDArgument : "expr" "1"
-/// @DnDArgument : "var" "CanShoot"
-CanShoot = 1;
-
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 39641D3D
-/// @DnDArgument : "expr" "1"
-/// @DnDArgument : "var" "lastdir"
-lastdir = 1;
-
-/// @DnDAction : YoYo Games.Instances.Set_Alarm
-/// @DnDVersion : 1
-/// @DnDHash : 1AD4B825
-alarm_set(0, 30);
+hp = 75
+maxHp = 100
