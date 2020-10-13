@@ -36,6 +36,7 @@
     {"id":{"name":"Hitbox","path":"objects/Hitbox/Hitbox.yy",},"order":2,},
     {"id":{"name":"s_DraffIdle_2","path":"sprites/s_DraffIdle_2/s_DraffIdle_2.yy",},"order":0,},
     {"id":{"name":"s_AspergeSmallRun","path":"sprites/s_AspergeSmallRun/s_AspergeSmallRun.yy",},"order":21,},
+    {"id":{"name":"Potato","path":"objects/Potato/Potato.yy",},"order":13,},
     {"id":{"name":"s_BG_city1","path":"sprites/s_BG_city1/s_BG_city1.yy",},"order":7,},
     {"id":{"name":"GameControl","path":"objects/GameControl/GameControl.yy",},"order":7,},
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},"order":0,},
