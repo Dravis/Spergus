@@ -47,6 +47,8 @@
     {"id":{"name":"PreviewMart","path":"objects/PreviewMart/PreviewMart.yy",},"order":6,},
     {"id":{"name":"s_SelectCharacterText","path":"sprites/s_SelectCharacterText/s_SelectCharacterText.yy",},"order":8,},
     {"id":{"name":"s_DraffPotatoWalk","path":"sprites/s_DraffPotatoWalk/s_DraffPotatoWalk.yy",},"order":28,},
+    {"id":{"name":"B_lev1sky","path":"sprites/B_lev1sky/B_lev1sky.yy",},"order":35,},
+    {"id":{"name":"B_lev1","path":"sprites/B_lev1/B_lev1.yy",},"order":34,},
     {"id":{"name":"s_DraffIdle","path":"sprites/s_DraffIdle/s_DraffIdle.yy",},"order":5,},
     {"id":{"name":"s_DraffSpawnPotato","path":"sprites/s_DraffSpawnPotato/s_DraffSpawnPotato.yy",},"order":27,},
     {"id":{"name":"s_PotatoSack","path":"sprites/s_PotatoSack/s_PotatoSack.yy",},"order":30,},
