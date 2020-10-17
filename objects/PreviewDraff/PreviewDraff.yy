@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_DraffIdle_2",
-    "path": "sprites/s_DraffIdle_2/s_DraffIdle_2.yy",
+    "name": "s_DraffIdle",
+    "path": "sprites/s_DraffIdle/s_DraffIdle.yy",
   },
   "solid": false,
   "visible": true,
