@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_AspergeSmallRun",
-    "path": "sprites/s_AspergeSmallRun/s_AspergeSmallRun.yy",
+    "name": "s_BS1Walk",
+    "path": "sprites/s_BS1Walk/s_BS1Walk.yy",
   },
   "solid": false,
   "visible": true,
