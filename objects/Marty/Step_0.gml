@@ -1,215 +1,252 @@
-/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
-/// @DnDHash : 20A21300
-/// @DnDArgument : "expr" "-y"
-/// @DnDArgument : "var" "self.depth"
-self.depth = -y;
+/// @DnDHash : 165CC74F
+/// @DnDArgument : "code" "self.depth = -y$(13_10)$(13_10)//Detect boundries$(13_10)if y >= 800$(13_10){$(13_10)	y = 800$(13_10)}$(13_10)if y <= 500$(13_10){$(13_10)	y = 500$(13_10)}$(13_10)$(13_10)//Detects attack$(13_10)if keyboard_check(basicbtn) and state != "attack" and substate == ""$(13_10){$(13_10)	if state == "idle"$(13_10)	{$(13_10)		state = "attack"$(13_10)		substate = "basic"$(13_10)		sprite_index = s_MartyShootIdle$(13_10)		image_index=0$(13_10)		hb = instance_create_depth(x + sprite_height-1024 + (image_xscale * 480), y-200 , 0, HitboxMart)$(13_10)		hb.image_xscale = image_xscale$(13_10)	}$(13_10)	$(13_10)	if state == "walk"$(13_10)	{$(13_10)		state = "attack"$(13_10)		substate = "basicWalk"$(13_10)		sprite_index = s_MartWalkShooty$(13_10)		image_index=0$(13_10)		instance_create_depth(x + sprite_height-1024 + (image_xscale * 480), y-200, 0, HitboxMart)	$(13_10)	}$(13_10)$(13_10)		$(13_10)}$(13_10)$(13_10)/*$(13_10)//Ranged Attack$(13_10)if keyboard_check(rangedbtn) and state != "attack"$(13_10){$(13_10)	if substate == "ranged"$(13_10)	{$(13_10)		hspeed = 0$(13_10)		vspeed = 0$(13_10)		state = "attack"$(13_10)		substate = "rangedThrow"$(13_10)		canMove = false$(13_10)		sprite_index = s_DraffPotatoStand$(13_10)		image_index=0$(13_10)		targetImage = instance_create_depth(x + sprite_height-1024 + (image_xscale * 750), y-50 , 0, Target)$(13_10)		targetImage.image_index = s_DraffPotatoTarget$(13_10)		targetImage.friction = 0.4$(13_10)		isMovingTarget = true$(13_10)	}$(13_10)	$(13_10)	//if is in no substate$(13_10)	if substate == ""$(13_10)	{$(13_10)		hspeed = 0$(13_10)		vspeed = 0$(13_10)		canMove = false$(13_10)		state = "attack"$(13_10)		substate = "ranged"$(13_10)		sprite_index = s_DraffSpawnPotato$(13_10)		image_index=0 $(13_10)	}	$(13_10)}$(13_10)$(13_10)//On "E" key release$(13_10)if substate == "rangedThrow" and !keyboard_check(rangedbtn)$(13_10){$(13_10)	sprite_index= s_DraffPotatoThrow$(13_10)	isMovingTarget = false$(13_10)	instance_destroy(targetImage)$(13_10)}$(13_10)$(13_10)$(13_10)//Frame 8 is when the object is thrown$(13_10)if image_index > 8 and substate = "rangedThrow"$(13_10){		$(13_10)	substate = "rangedThrown"$(13_10)	sack = instance_create_depth(x + (250 * image_xscale) , y-180 , 0, PotatoSack)$(13_10)	sack.direction = 0$(13_10)	sack.speed = image_xscale * 25$(13_10)	sack.image_xscale = image_xscale$(13_10)	canMove = true$(13_10)}*/$(13_10)$(13_10)if keyboard_check(selectbtn)$(13_10){$(13_10)	inventoryObj.isActivated = true$(13_10)	inventoryObj.x = x$(13_10)	inventoryObj.y = y$(13_10)}$(13_10)else$(13_10){$(13_10)	inventoryObj.isActivated = false$(13_10)}$(13_10)$(13_10)//Detect movements$(13_10)if (canMove and !isStunned) or isMovingTarget$(13_10){$(13_10)	if !isMovingTarget$(13_10)	{$(13_10)		if keyboard_check(upbtn)$(13_10)		{$(13_10)			vspeed = -10	$(13_10)		}$(13_10)		if keyboard_check(downbtn)$(13_10)		{$(13_10)			vspeed = 10	$(13_10)		}$(13_10)		if keyboard_check(leftbtn)$(13_10)		{$(13_10)			hspeed = -10$(13_10)			image_xscale = -1$(13_10)		}$(13_10)		if keyboard_check(rightbtn)$(13_10)		{$(13_10)			hspeed = 10$(13_10)			image_xscale = 1$(13_10)		}$(13_10)	} else$(13_10)		{$(13_10)		if keyboard_check(upbtn)$(13_10)		{$(13_10)			targetImage.vspeed = -10	$(13_10)		}$(13_10)		if keyboard_check(downbtn)$(13_10)		{$(13_10)			targetImage.vspeed = 10	$(13_10)		}$(13_10)		if keyboard_check(leftbtn)$(13_10)		{$(13_10)			targetImage.hspeed = -10			$(13_10)		}$(13_10)		if keyboard_check(rightbtn)$(13_10)		{$(13_10)			targetImage.hspeed = 10$(13_10)		}$(13_10)	}$(13_10)	$(13_10)}$(13_10)$(13_10)$(13_10)if keyboard_check_released(upbtn) or keyboard_check_released(downbtn) $(13_10){$(13_10)	vspeed = 0$(13_10)}$(13_10)if keyboard_check_released(leftbtn) or keyboard_check_released(rightbtn) $(13_10){$(13_10)	hspeed = 0$(13_10)}$(13_10)$(13_10)if isStunned$(13_10){$(13_10)	if speed < 0$(13_10)		speed += 0.5$(13_10)	else$(13_10)		speed = 0 $(13_10)}$(13_10)$(13_10)//Animations$(13_10)if (image_index > image_number - 1)$(13_10){$(13_10)	if sprite_index == s_MartyShootIdle$(13_10)	{$(13_10)		sprite_index = s_MartIdle$(13_10)		state = "idle"$(13_10)		substate = ""$(13_10)$(13_10)	}$(13_10)	$(13_10)	if sprite_index == s_MartWalkShooty$(13_10)	{$(13_10)		sprite_index = s_MartWalkShoot$(13_10)		state = "walk"$(13_10)		substate = ""$(13_10)	}$(13_10)	$(13_10)	/*$(13_10)	if sprite_index == s_DraffSpawnPotato$(13_10)	{$(13_10)		sprite_index = s_DraffPotatoStand$(13_10)		state = "idle"$(13_10)		substate = "ranged"$(13_10)		canMove = true	$(13_10)	}$(13_10)	$(13_10)	if sprite_index == s_DraffPotatoThrow$(13_10)	{$(13_10)		sprite_index = s_DraffIdle$(13_10)		state = "idle"$(13_10)		substate = ""$(13_10)		canMove = true		$(13_10)	}$(13_10)	*/$(13_10)}$(13_10)$(13_10)//Animation end$(13_10)if sprite_index == s_MartWalkShoot and speed == 0$(13_10){$(13_10)	sprite_index = s_MartIdle$(13_10)	state = "idle"$(13_10)	substate = ""$(13_10)}$(13_10)$(13_10)if sprite_index == s_MartIdle and speed != 0$(13_10){$(13_10)	sprite_index = s_MartWalkShoot$(13_10)	state = "walk"$(13_10)	substate = ""$(13_10)}$(13_10)$(13_10)if sprite_index == s_MartWalkShooty and speed == 0$(13_10){$(13_10)	i = image_index$(13_10)	sprite_index = s_MartyShootIdle$(13_10)	image_index = i$(13_10)	substate = "basic"$(13_10)	$(13_10)}$(13_10)$(13_10)if sprite_index == s_MartyShootIdle and speed != 0$(13_10){$(13_10)	i = image_index$(13_10)	sprite_index = s_MartWalkShooty$(13_10)	image_index = i$(13_10)	substate = "basicWalk"$(13_10)}$(13_10)$(13_10)/*$(13_10)if sprite_index == s_DraffPotatoWalk and speed == 0$(13_10){$(13_10)	sprite_index = s_DraffPotatoStand$(13_10)	state = "idle"$(13_10)	substate = "ranged"$(13_10)}$(13_10)$(13_10)if sprite_index == s_DraffPotatoStand and speed != 0$(13_10){$(13_10)	sprite_index = s_DraffPotatoWalk$(13_10)	state = "walk"$(13_10)	substate = "ranged"$(13_10)}*/$(13_10)$(13_10)"
+self.depth = -y
 
-/// @DnDAction : YoYo Games.Common.If_Expression
-/// @DnDVersion : 1
-/// @DnDHash : 3F18BDCE
-/// @DnDArgument : "expr" "keyboard_check(vk_space)"
-/// @DnDArgument : "not" "1"
-if(!(keyboard_check(vk_space)))
+//Detect boundries
+if y >= 800
 {
-	/// @DnDAction : YoYo Games.Common.Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 0F5C6497
-	/// @DnDParent : 3F18BDCE
-	/// @DnDArgument : "var" "Shooting"
-	Shooting = 0;
+	y = 800
+}
+if y <= 500
+{
+	y = 500
 }
 
-/// @DnDAction : YoYo Games.Common.If_Variable
-/// @DnDVersion : 1
-/// @DnDHash : 41145AFD
-/// @DnDArgument : "var" "Shooting"
-/// @DnDArgument : "value" "1"
-if(Shooting == 1)
+//Detects attack
+if keyboard_check(basicbtn) and state != "attack" and substate == ""
 {
-	/// @DnDAction : YoYo Games.Common.If_Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 6D55396A
-	/// @DnDParent : 41145AFD
-	/// @DnDArgument : "var" "image_index"
-	if(image_index == 0)
+	if state == "idle"
 	{
-		/// @DnDAction : YoYo Games.Common.Variable
-		/// @DnDVersion : 1
-		/// @DnDHash : 73034774
-		/// @DnDParent : 6D55396A
-		/// @DnDArgument : "expr" "1"
-		/// @DnDArgument : "var" "CanShoot"
-		CanShoot = 1;
+		state = "attack"
+		substate = "basic"
+		sprite_index = s_MartyShootIdle
+		image_index=0
+		hb = instance_create_depth(x + sprite_height-1024 + (image_xscale * 480), y-200 , 0, HitboxMart)
+		hb.image_xscale = image_xscale
 	}
-}
-
-/// @DnDAction : YoYo Games.Common.If_Variable
-/// @DnDVersion : 1
-/// @DnDHash : 1C28D940
-/// @DnDArgument : "var" "y"
-/// @DnDArgument : "op" "2"
-/// @DnDArgument : "value" "750"
-if(y > 750)
-{
-	/// @DnDAction : YoYo Games.Common.Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 14FD4A80
-	/// @DnDParent : 1C28D940
-	/// @DnDArgument : "expr" "750"
-	/// @DnDArgument : "var" "y"
-	y = 750;
-}
-
-/// @DnDAction : YoYo Games.Common.If_Variable
-/// @DnDVersion : 1
-/// @DnDHash : 09FF623A
-/// @DnDArgument : "var" "y"
-/// @DnDArgument : "op" "1"
-/// @DnDArgument : "value" "340"
-if(y < 340)
-{
-	/// @DnDAction : YoYo Games.Common.Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 24003C5D
-	/// @DnDParent : 09FF623A
-	/// @DnDArgument : "expr" "340"
-	/// @DnDArgument : "var" "y"
-	y = 340;
-}
-
-/// @DnDAction : YoYo Games.Common.If_Variable
-/// @DnDVersion : 1
-/// @DnDHash : 670E7873
-/// @DnDArgument : "var" "image_xscale"
-/// @DnDArgument : "value" "-1"
-if(image_xscale == -1)
-{
-	/// @DnDAction : YoYo Games.Common.Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 28969194
-	/// @DnDParent : 670E7873
-	/// @DnDArgument : "expr" "-1"
-	/// @DnDArgument : "var" "lastdir"
-	lastdir = -1;
-}
-
-/// @DnDAction : YoYo Games.Common.If_Variable
-/// @DnDVersion : 1
-/// @DnDHash : 09C10B5E
-/// @DnDArgument : "var" "image_xscale"
-/// @DnDArgument : "value" "1"
-if(image_xscale == 1)
-{
-	/// @DnDAction : YoYo Games.Common.Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 4AB38B84
-	/// @DnDParent : 09C10B5E
-	/// @DnDArgument : "expr" "1"
-	/// @DnDArgument : "var" "lastdir"
-	lastdir = 1;
-}
-
-/// @DnDAction : YoYo Games.Common.If_Variable
-/// @DnDVersion : 1
-/// @DnDHash : 79EE7F43
-/// @DnDArgument : "var" "speed"
-if(speed == 0)
-{
-	/// @DnDAction : YoYo Games.Common.If_Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 077744A8
-	/// @DnDParent : 79EE7F43
-	/// @DnDArgument : "var" "Shooting"
-	if(Shooting == 0)
+	
+	if state == "walk"
 	{
-		/// @DnDAction : YoYo Games.Instances.Set_Sprite
-		/// @DnDVersion : 1
-		/// @DnDHash : 5227607C
-		/// @DnDParent : 077744A8
-		/// @DnDArgument : "imageind_relative" "1"
-		/// @DnDArgument : "spriteind" "s_MartIdle"
-		/// @DnDSaveInfo : "spriteind" "s_MartIdle"
-		sprite_index = s_MartIdle;
-		image_index += 0;
+		state = "attack"
+		substate = "basicWalk"
+		sprite_index = s_MartWalkShooty
+		image_index=0
+		instance_create_depth(x + sprite_height-1024 + (image_xscale * 480), y-200, 0, HitboxMart)	
 	}
+
+		
 }
 
-/// @DnDAction : YoYo Games.Common.If_Variable
-/// @DnDVersion : 1
-/// @DnDHash : 259F1A60
-/// @DnDArgument : "var" "speed"
-/// @DnDArgument : "not" "1"
-if(!(speed == 0))
+/*
+//Ranged Attack
+if keyboard_check(rangedbtn) and state != "attack"
 {
-	/// @DnDAction : YoYo Games.Common.If_Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 2C8B6F05
-	/// @DnDParent : 259F1A60
-	/// @DnDArgument : "var" "Shooting"
-	/// @DnDArgument : "value" "1"
-	if(Shooting == 1)
+	if substate == "ranged"
 	{
-		/// @DnDAction : YoYo Games.Instances.Set_Sprite
-		/// @DnDVersion : 1
-		/// @DnDHash : 4B8BF6B8
-		/// @DnDParent : 2C8B6F05
-		/// @DnDArgument : "imageind_relative" "1"
-		/// @DnDArgument : "spriteind" "s_MartWalkShooty"
-		/// @DnDSaveInfo : "spriteind" "s_MartWalkShooty"
-		sprite_index = s_MartWalkShooty;
-		image_index += 0;
+		hspeed = 0
+		vspeed = 0
+		state = "attack"
+		substate = "rangedThrow"
+		canMove = false
+		sprite_index = s_DraffPotatoStand
+		image_index=0
+		targetImage = instance_create_depth(x + sprite_height-1024 + (image_xscale * 750), y-50 , 0, Target)
+		targetImage.image_index = s_DraffPotatoTarget
+		targetImage.friction = 0.4
+		isMovingTarget = true
 	}
+	
+	//if is in no substate
+	if substate == ""
+	{
+		hspeed = 0
+		vspeed = 0
+		canMove = false
+		state = "attack"
+		substate = "ranged"
+		sprite_index = s_DraffSpawnPotato
+		image_index=0 
+	}	
 }
 
-/// @DnDAction : YoYo Games.Common.If_Variable
-/// @DnDVersion : 1
-/// @DnDHash : 287FAFA6
-/// @DnDArgument : "var" "speed"
-if(speed == 0)
+//On "E" key release
+if substate == "rangedThrow" and !keyboard_check(rangedbtn)
 {
-	/// @DnDAction : YoYo Games.Common.If_Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 00E8879C
-	/// @DnDParent : 287FAFA6
-	/// @DnDArgument : "var" "Shooting"
-	/// @DnDArgument : "value" "1"
-	if(Shooting == 1)
-	{
-		/// @DnDAction : YoYo Games.Instances.Set_Sprite
-		/// @DnDVersion : 1
-		/// @DnDHash : 07B229DB
-		/// @DnDParent : 00E8879C
-		/// @DnDArgument : "imageind_relative" "1"
-		/// @DnDArgument : "spriteind" "s_MartyShootIdle"
-		/// @DnDSaveInfo : "spriteind" "s_MartyShootIdle"
-		sprite_index = s_MartyShootIdle;
-		image_index += 0;
-	}
+	sprite_index= s_DraffPotatoThrow
+	isMovingTarget = false
+	instance_destroy(targetImage)
 }
 
-/// @DnDAction : YoYo Games.Common.If_Variable
-/// @DnDVersion : 1
-/// @DnDHash : 60ABFD48
-/// @DnDArgument : "var" "speed"
-/// @DnDArgument : "not" "1"
-if(!(speed == 0))
+
+//Frame 8 is when the object is thrown
+if image_index > 8 and substate = "rangedThrow"
+{		
+	substate = "rangedThrown"
+	sack = instance_create_depth(x + (250 * image_xscale) , y-180 , 0, PotatoSack)
+	sack.direction = 0
+	sack.speed = image_xscale * 25
+	sack.image_xscale = image_xscale
+	canMove = true
+}*/
+
+if keyboard_check(selectbtn)
 {
-	/// @DnDAction : YoYo Games.Common.If_Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 0EBEADB3
-	/// @DnDParent : 60ABFD48
-	/// @DnDArgument : "var" "Shooting"
-	if(Shooting == 0)
-	{
-		/// @DnDAction : YoYo Games.Instances.Set_Sprite
-		/// @DnDVersion : 1
-		/// @DnDHash : 59B66EC9
-		/// @DnDParent : 0EBEADB3
-		/// @DnDArgument : "imageind_relative" "1"
-		/// @DnDArgument : "spriteind" "s_MartWalkShoot"
-		/// @DnDSaveInfo : "spriteind" "s_MartWalkShoot"
-		sprite_index = s_MartWalkShoot;
-		image_index += 0;
-	}
+	inventoryObj.isActivated = true
+	inventoryObj.x = x
+	inventoryObj.y = y
 }
+else
+{
+	inventoryObj.isActivated = false
+}
+
+//Detect movements
+if (canMove and !isStunned) or isMovingTarget
+{
+	if !isMovingTarget
+	{
+		if keyboard_check(upbtn)
+		{
+			vspeed = -10	
+		}
+		if keyboard_check(downbtn)
+		{
+			vspeed = 10	
+		}
+		if keyboard_check(leftbtn)
+		{
+			hspeed = -10
+			image_xscale = -1
+		}
+		if keyboard_check(rightbtn)
+		{
+			hspeed = 10
+			image_xscale = 1
+		}
+	} else
+		{
+		if keyboard_check(upbtn)
+		{
+			targetImage.vspeed = -10	
+		}
+		if keyboard_check(downbtn)
+		{
+			targetImage.vspeed = 10	
+		}
+		if keyboard_check(leftbtn)
+		{
+			targetImage.hspeed = -10			
+		}
+		if keyboard_check(rightbtn)
+		{
+			targetImage.hspeed = 10
+		}
+	}
+	
+}
+
+
+if keyboard_check_released(upbtn) or keyboard_check_released(downbtn) 
+{
+	vspeed = 0
+}
+if keyboard_check_released(leftbtn) or keyboard_check_released(rightbtn) 
+{
+	hspeed = 0
+}
+
+if isStunned
+{
+	if speed < 0
+		speed += 0.5
+	else
+		speed = 0 
+}
+
+//Animations
+if (image_index > image_number - 1)
+{
+	if sprite_index == s_MartyShootIdle
+	{
+		sprite_index = s_MartIdle
+		state = "idle"
+		substate = ""
+
+	}
+	
+	if sprite_index == s_MartWalkShooty
+	{
+		sprite_index = s_MartWalkShoot
+		state = "walk"
+		substate = ""
+	}
+	
+	/*
+	if sprite_index == s_DraffSpawnPotato
+	{
+		sprite_index = s_DraffPotatoStand
+		state = "idle"
+		substate = "ranged"
+		canMove = true	
+	}
+	
+	if sprite_index == s_DraffPotatoThrow
+	{
+		sprite_index = s_DraffIdle
+		state = "idle"
+		substate = ""
+		canMove = true		
+	}
+	*/
+}
+
+//Animation end
+if sprite_index == s_MartWalkShoot and speed == 0
+{
+	sprite_index = s_MartIdle
+	state = "idle"
+	substate = ""
+}
+
+if sprite_index == s_MartIdle and speed != 0
+{
+	sprite_index = s_MartWalkShoot
+	state = "walk"
+	substate = ""
+}
+
+if sprite_index == s_MartWalkShooty and speed == 0
+{
+	i = image_index
+	sprite_index = s_MartyShootIdle
+	image_index = i
+	substate = "basic"
+	
+}
+
+if sprite_index == s_MartyShootIdle and speed != 0
+{
+	i = image_index
+	sprite_index = s_MartWalkShooty
+	image_index = i
+	substate = "basicWalk"
+}
+
+/*
+if sprite_index == s_DraffPotatoWalk and speed == 0
+{
+	sprite_index = s_DraffPotatoStand
+	state = "idle"
+	substate = "ranged"
+}
+
+if sprite_index == s_DraffPotatoStand and speed != 0
+{
+	sprite_index = s_DraffPotatoWalk
+	state = "walk"
+	substate = "ranged"
+}*/
+
+/**/
