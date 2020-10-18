@@ -1,71 +1,15 @@
-/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
-/// @DnDHash : 47AA4E42
-/// @DnDArgument : "var" "y"
-/// @DnDArgument : "op" "2"
-/// @DnDArgument : "value" "Player1_Parent.y-100"
-if(y > Player1_Parent.y-100)
+/// @DnDHash : 43A09C4E
+/// @DnDArgument : "code" "if y > Player1_Parent.y-100 and y < Player1_Parent.y+100$(13_10){$(13_10)	if healths > 0 and Flashy != 1$(13_10)	{$(13_10)		healths -= 34$(13_10)		Flashy = 1$(13_10)		alarm[1] = 45$(13_10)		sprite_index = s_BS1Die$(13_10)		image_index = 0$(13_10)	}$(13_10)}"
+if y > Player1_Parent.y-100 and y < Player1_Parent.y+100
 {
-	/// @DnDAction : YoYo Games.Common.If_Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 117E14B5
-	/// @DnDParent : 47AA4E42
-	/// @DnDArgument : "var" "y"
-	/// @DnDArgument : "op" "1"
-	/// @DnDArgument : "value" "Player1_Parent.y+100"
-	if(y < Player1_Parent.y+100)
+	if healths > 0 and Flashy != 1
 	{
-		/// @DnDAction : YoYo Games.Common.If_Variable
-		/// @DnDVersion : 1
-		/// @DnDHash : 12875F45
-		/// @DnDParent : 117E14B5
-		/// @DnDArgument : "var" "healths"
-		/// @DnDArgument : "op" "2"
-		if(healths > 0)
-		{
-			/// @DnDAction : YoYo Games.Common.If_Variable
-			/// @DnDVersion : 1
-			/// @DnDHash : 3B6433BC
-			/// @DnDParent : 12875F45
-			/// @DnDArgument : "var" "Flashy"
-			/// @DnDArgument : "not" "1"
-			/// @DnDArgument : "value" "1"
-			if(!(Flashy == 1))
-			{
-				/// @DnDAction : YoYo Games.Common.Variable
-				/// @DnDVersion : 1
-				/// @DnDHash : 0312DA16
-				/// @DnDParent : 3B6433BC
-				/// @DnDArgument : "expr" "-34"
-				/// @DnDArgument : "expr_relative" "1"
-				/// @DnDArgument : "var" "self.healths"
-				self.healths += -34;
-			
-				/// @DnDAction : YoYo Games.Common.Variable
-				/// @DnDVersion : 1
-				/// @DnDHash : 1904A9E4
-				/// @DnDParent : 3B6433BC
-				/// @DnDArgument : "expr" "1"
-				/// @DnDArgument : "var" "Flashy"
-				Flashy = 1;
-			
-				/// @DnDAction : YoYo Games.Instances.Set_Alarm
-				/// @DnDVersion : 1
-				/// @DnDHash : 1F37458F
-				/// @DnDParent : 3B6433BC
-				/// @DnDArgument : "steps" "45"
-				/// @DnDArgument : "alarm" "1"
-				alarm_set(1, 45);
-			
-				/// @DnDAction : YoYo Games.Instances.Set_Sprite
-				/// @DnDVersion : 1
-				/// @DnDHash : 7194C560
-				/// @DnDParent : 3B6433BC
-				/// @DnDArgument : "spriteind" "s_BS1Die"
-				/// @DnDSaveInfo : "spriteind" "s_BS1Die"
-				sprite_index = s_BS1Die;
-				image_index = 0;
-			}
-		}
+		healths -= 34
+		Flashy = 1
+		alarm[1] = 45
+		sprite_index = s_BS1Die
+		image_index = 0
 	}
 }
