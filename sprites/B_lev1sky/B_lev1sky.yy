@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8f5410f2-8bbf-43da-95cf-e502906eed3b","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Background",
+    "path": "folders/Sprites/Background.yy",
   },
   "resourceVersion": "1.0",
   "name": "B_lev1sky",

@@ -184,8 +184,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"36134bac-3abb-454f-8c86-98a141cf097b","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Draffeurd",
+    "path": "folders/Sprites/Characters/Draffeurd.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_DraffIdle_2",

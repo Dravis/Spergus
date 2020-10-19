@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f4b29d19-7de8-4f4e-aa1f-2bdab70216b0","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Batiments",
+    "path": "folders/Sprites/Batiments.yy",
   },
   "resourceVersion": "1.0",
   "name": "B_Chalet2",

@@ -192,8 +192,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5da87ea0-e992-41a8-aa74-97371a743ab9","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Draffeurd",
+    "path": "folders/Sprites/Characters/Draffeurd.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_DraffWalk",

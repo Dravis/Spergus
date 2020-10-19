@@ -124,8 +124,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a7571434-75c8-40af-abad-38ad0f79063f","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Dravis",
+    "path": "folders/Sprites/Characters/Dravis.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_DravSmashStomp",

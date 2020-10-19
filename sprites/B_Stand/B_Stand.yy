@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"cd2a4151-9702-4cb1-8923-233bf683d735","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Batiments",
+    "path": "folders/Sprites/Batiments.yy",
   },
   "resourceVersion": "1.0",
   "name": "B_Stand",

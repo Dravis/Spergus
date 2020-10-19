@@ -116,8 +116,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4e0cae81-1179-4815-bf60-4d9ccaade278","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Draffeurd",
+    "path": "folders/Sprites/Characters/Draffeurd.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_DraffAttack",

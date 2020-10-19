@@ -176,8 +176,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3a46c691-ae23-4e11-b0ca-6812d43f70d3","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Martineskov",
+    "path": "folders/Sprites/Characters/Martineskov.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_MartWalkShooty",

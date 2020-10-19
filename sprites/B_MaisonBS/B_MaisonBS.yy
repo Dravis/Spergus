@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"87c1b3f4-5aa2-402c-938a-7ddf6d5c3147","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Maisons",
+    "path": "folders/Sprites/Batiments/Maisons.yy",
   },
   "resourceVersion": "1.0",
   "name": "B_MaisonBS",

@@ -116,8 +116,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"811d4415-67d0-40ff-ae54-2c11f1f907f3","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "BsBoss",
+    "path": "folders/Sprites/BS/BsBoss.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_BS3Attack1",

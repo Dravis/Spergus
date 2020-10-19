@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"af12ea35-91a7-4529-b106-4f66fdb0f96b","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Draffeurd",
+    "path": "folders/Sprites/Characters/Draffeurd.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_DraffPotatoStand",

@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"36941fbb-2639-4fd5-a566-04becebd13a0","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "BsBoss",
+    "path": "folders/Sprites/BS/BsBoss.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_BSThrowable2",

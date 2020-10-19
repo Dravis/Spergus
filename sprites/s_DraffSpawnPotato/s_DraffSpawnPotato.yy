@@ -264,8 +264,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"618edcb6-67a3-4e5a-97c0-cdbb90860920","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Draffeurd",
+    "path": "folders/Sprites/Characters/Draffeurd.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_DraffSpawnPotato",

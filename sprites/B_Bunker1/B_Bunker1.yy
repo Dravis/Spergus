@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"249d51ed-8e34-4405-a677-be1e34d676bd","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Batiments",
+    "path": "folders/Sprites/Batiments.yy",
   },
   "resourceVersion": "1.0",
   "name": "B_Bunker1",

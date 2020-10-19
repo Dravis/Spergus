@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ebd90b9b-c9ea-41fd-aa87-87d3572588e6","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Accessoires Decor",
+    "path": "folders/Sprites/Accessoires Decor.yy",
   },
   "resourceVersion": "1.0",
   "name": "B_Tree1",

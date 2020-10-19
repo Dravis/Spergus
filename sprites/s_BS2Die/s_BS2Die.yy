@@ -152,8 +152,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8fd164b1-9cb1-424f-867a-7fe3d412a777","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "BS2",
+    "path": "folders/Sprites/BS/BS2.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_BS2Die",

@@ -152,8 +152,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2fa9dd0d-974b-45d1-9a1e-2c185fc3e4b8","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "BsBoss",
+    "path": "folders/Sprites/BS/BsBoss.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_BS3Run",

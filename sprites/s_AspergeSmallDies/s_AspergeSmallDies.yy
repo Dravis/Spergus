@@ -152,8 +152,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0c4f165c-f2f0-4ea3-a6ea-3bf57ffaa12e","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "AspergeSmall",
+    "path": "folders/Sprites/Mechants/AspergeSmall.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_AspergeSmallDies",

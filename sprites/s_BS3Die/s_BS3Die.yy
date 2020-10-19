@@ -152,8 +152,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"19fbc4b2-4e92-444a-ac95-bc4ffa26fbf2","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "BsBoss",
+    "path": "folders/Sprites/BS/BsBoss.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_BS3Die",

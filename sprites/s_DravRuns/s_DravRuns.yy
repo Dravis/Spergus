@@ -152,8 +152,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ebd2d3fe-a692-467c-90d9-cafa646ef07d","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Dravis",
+    "path": "folders/Sprites/Characters/Dravis.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_DravRuns",

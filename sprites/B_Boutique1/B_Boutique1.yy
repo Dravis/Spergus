@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c399629f-6e04-4d72-a6fc-3da81f9d58dd","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Batiments",
+    "path": "folders/Sprites/Batiments.yy",
   },
   "resourceVersion": "1.0",
   "name": "B_Boutique1",

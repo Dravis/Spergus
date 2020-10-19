@@ -192,8 +192,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"46cb2621-a7de-4e9b-ae83-0f86f9054977","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "BS1",
+    "path": "folders/Sprites/BS/BS1.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_BS1Walk",

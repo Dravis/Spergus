@@ -116,8 +116,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"25998425-9368-499f-9f8c-e9de47429079","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "AspergeSmall",
+    "path": "folders/Sprites/Mechants/AspergeSmall.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_AspergeSmallAttack",

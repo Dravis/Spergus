@@ -188,8 +188,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"632783da-63ed-4b27-ab11-3001fa104a42","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Martineskov",
+    "path": "folders/Sprites/Characters/Martineskov.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_MartyShootIdle",

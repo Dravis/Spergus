@@ -116,8 +116,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"017ba4da-027f-4af2-af21-b7614a1c7ebf","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "BS2",
+    "path": "folders/Sprites/BS/BS2.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_BS2Attack",
