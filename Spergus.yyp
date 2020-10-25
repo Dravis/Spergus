@@ -3,6 +3,7 @@
     {"id":{"name":"s_DraffPotatoStand","path":"sprites/s_DraffPotatoStand/s_DraffPotatoStand.yy",},"order":3,},
     {"id":{"name":"b_Banc2","path":"sprites/b_Banc2/b_Banc2.yy",},"order":0,},
     {"id":{"name":"s_FrameMart","path":"sprites/s_FrameMart/s_FrameMart.yy",},"order":6,},
+    {"id":{"name":"Bouteille","path":"objects/Bouteille/Bouteille.yy",},"order":34,},
     {"id":{"name":"b_Taxi","path":"sprites/b_Taxi/b_Taxi.yy",},"order":30,},
     {"id":{"name":"B_Stand","path":"sprites/B_Stand/B_Stand.yy",},"order":11,},
     {"id":{"name":"s_AspergeSmallAttack","path":"sprites/s_AspergeSmallAttack/s_AspergeSmallAttack.yy",},"order":0,},
