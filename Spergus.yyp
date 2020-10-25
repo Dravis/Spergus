@@ -84,6 +84,7 @@
     {"id":{"name":"s_BS3Run","path":"sprites/s_BS3Run/s_BS3Run.yy",},"order":4,},
     {"id":{"name":"B_Boutique3","path":"sprites/B_Boutique3/B_Boutique3.yy",},"order":2,},
     {"id":{"name":"b_CheminChamp","path":"sprites/b_CheminChamp/b_CheminChamp.yy",},"order":5,},
+    {"id":{"name":"MechantBS2","path":"objects/MechantBS2/MechantBS2.yy",},"order":33,},
     {"id":{"name":"Maison14","path":"objects/Maison14/Maison14.yy",},"order":14,},
     {"id":{"name":"Mechant","path":"objects/Mechant/Mechant.yy",},"order":1,},
     {"id":{"name":"b_Bridge","path":"sprites/b_Bridge/b_Bridge.yy",},"order":25,},

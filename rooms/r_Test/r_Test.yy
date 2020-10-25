@@ -31,6 +31,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"Mechant","path":"objects/Mechant/Mechant.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":6912.0,"y":618.0,"resourceVersion":"1.0","name":"inst_72B2C3CE","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"Mechant","path":"objects/Mechant/Mechant.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":9438.0,"y":573.0,"resourceVersion":"1.0","name":"inst_3BDE2C24","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"Mechant","path":"objects/Mechant/Mechant.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":8006.0,"y":479.0,"resourceVersion":"1.0","name":"inst_65E68080","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"MechantBS2","path":"objects/MechantBS2/MechantBS2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2862.0,"y":711.0,"resourceVersion":"1.0","name":"inst_6C58F85F","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":-39900,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":1,"gridY":1,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[
         {"spriteId":{"name":"B_MaisonBS","path":"sprites/B_MaisonBS/B_MaisonBS.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":15249.0,"y":128.0,"resourceVersion":"1.0","name":"graphic_63B9E4CC","tags":[],"resourceType":"GMRSpriteGraphic",},
@@ -99,6 +100,7 @@
     {"name":"inst_72B2C3CE","path":"rooms/r_Test/r_Test.yy",},
     {"name":"inst_3BDE2C24","path":"rooms/r_Test/r_Test.yy",},
     {"name":"inst_65E68080","path":"rooms/r_Test/r_Test.yy",},
+    {"name":"inst_6C58F85F","path":"rooms/r_Test/r_Test.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

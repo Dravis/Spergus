@@ -2,19 +2,19 @@
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
-  "origin": 4,
+  "origin": 9,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 199,
-  "bbox_right": 721,
+  "bbox_right": 827,
   "bbox_top": 152,
   "bbox_bottom": 628,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 768,
+  "width": 828,
   "height": 768,
   "textureGroupId": {
     "name": "Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"3f960ce0-3a22-4845-834b-ae7e122b77c9","path":"sprites/s_MartWalkShooty/s_MartWalkShooty.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3f960ce0-3a22-4845-834b-ae7e122b77c9","path":"sprites/s_MartWalkShooty/s_MartWalkShooty.yy",},"LayerId":{"name":"4c98977a-f22e-43c6-9123-696d61ce4099","path":"sprites/s_MartWalkShooty/s_MartWalkShooty.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_MartWalkShooty","path":"sprites/s_MartWalkShooty/s_MartWalkShooty.yy",},"resourceVersion":"1.0","name":"3f960ce0-3a22-4845-834b-ae7e122b77c9","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"39e8d22b-05e5-402e-b65a-3f064d58cd05","path":"sprites/s_MartWalkShooty/s_MartWalkShooty.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"39e8d22b-05e5-402e-b65a-3f064d58cd05","path":"sprites/s_MartWalkShooty/s_MartWalkShooty.yy",},"LayerId":{"name":"4c98977a-f22e-43c6-9123-696d61ce4099","path":"sprites/s_MartWalkShooty/s_MartWalkShooty.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_MartWalkShooty","path":"sprites/s_MartWalkShooty/s_MartWalkShooty.yy",},"resourceVersion":"1.0","name":"39e8d22b-05e5-402e-b65a-3f064d58cd05","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"274df1e8-5c2d-40b1-acd1-6f809288f18a","path":"sprites/s_MartWalkShooty/s_MartWalkShooty.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"274df1e8-5c2d-40b1-acd1-6f809288f18a","path":"sprites/s_MartWalkShooty/s_MartWalkShooty.yy",},"LayerId":{"name":"4c98977a-f22e-43c6-9123-696d61ce4099","path":"sprites/s_MartWalkShooty/s_MartWalkShooty.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_MartWalkShooty","path":"sprites/s_MartWalkShooty/s_MartWalkShooty.yy",},"resourceVersion":"1.0","name":"274df1e8-5c2d-40b1-acd1-6f809288f18a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"7bb3f668-910c-4cb3-a9d4-22ac5150a0a4","path":"sprites/s_MartWalkShooty/s_MartWalkShooty.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"7bb3f668-910c-4cb3-a9d4-22ac5150a0a4","path":"sprites/s_MartWalkShooty/s_MartWalkShooty.yy",},"LayerId":{"name":"4c98977a-f22e-43c6-9123-696d61ce4099","path":"sprites/s_MartWalkShooty/s_MartWalkShooty.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_MartWalkShooty","path":"sprites/s_MartWalkShooty/s_MartWalkShooty.yy",},"resourceVersion":"1.0","name":"7bb3f668-910c-4cb3-a9d4-22ac5150a0a4","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"88bdfae3-77fc-4b90-b1bc-fd53536ee94a","path":"sprites/s_MartWalkShooty/s_MartWalkShooty.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"88bdfae3-77fc-4b90-b1bc-fd53536ee94a","path":"sprites/s_MartWalkShooty/s_MartWalkShooty.yy",},"LayerId":{"name":"4c98977a-f22e-43c6-9123-696d61ce4099","path":"sprites/s_MartWalkShooty/s_MartWalkShooty.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"s_MartWalkShooty","path":"sprites/s_MartWalkShooty/s_MartWalkShooty.yy",},"resourceVersion":"1.0","name":"88bdfae3-77fc-4b90-b1bc-fd53536ee94a","tags":[],"resourceType":"GMSpriteFrame",},
@@ -116,8 +116,8 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"8fb5b899-9421-4c19-925a-eabe726355fa","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3f960ce0-3a22-4845-834b-ae7e122b77c9","path":"sprites/s_MartWalkShooty/s_MartWalkShooty.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"7e8596f8-393a-4196-a1f3-90ce996c953c","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"39e8d22b-05e5-402e-b65a-3f064d58cd05","path":"sprites/s_MartWalkShooty/s_MartWalkShooty.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"92d5782a-89f0-459f-81a3-226fc9ee1312","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"274df1e8-5c2d-40b1-acd1-6f809288f18a","path":"sprites/s_MartWalkShooty/s_MartWalkShooty.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"ad9e225e-5d99-4187-ba67-e21ae8a906a7","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7bb3f668-910c-4cb3-a9d4-22ac5150a0a4","path":"sprites/s_MartWalkShooty/s_MartWalkShooty.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"7c48b144-3e41-4904-954a-6f7638a38591","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"88bdfae3-77fc-4b90-b1bc-fd53536ee94a","path":"sprites/s_MartWalkShooty/s_MartWalkShooty.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"6da4f4df-60cb-46fb-a79a-9e7563ea5124","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"92e0d275-6d0f-43b5-a2df-b992db799bff","path":"sprites/s_MartWalkShooty/s_MartWalkShooty.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"83bebc68-95d7-4be5-9e7c-048abe36b060","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"89de0c0c-6ed9-424d-b489-8c1888560021","path":"sprites/s_MartWalkShooty/s_MartWalkShooty.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
