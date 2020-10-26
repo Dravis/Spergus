@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_BSThrowable",
-    "path": "sprites/s_BSThrowable/s_BSThrowable.yy",
+    "name": "s_BSThrowable142",
+    "path": "sprites/s_BSThrowable142/s_BSThrowable142.yy",
   },
   "solid": false,
   "visible": true,
