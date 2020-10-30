@@ -28,6 +28,7 @@
     {"isDnD":true,"eventNum":1,"eventType":2,"collisionObjectId":null,"parent":{"name":"Mechant","path":"objects/Mechant/Mechant.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"HitboxMart","path":"objects/HitboxMart/HitboxMart.yy",},"parent":{"name":"Mechant","path":"objects/Mechant/Mechant.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Potato","path":"objects/Potato/Potato.yy",},"parent":{"name":"Mechant","path":"objects/Mechant/Mechant.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"DestroEtron","path":"objects/DestroEtron/DestroEtron.yy",},"parent":{"name":"Mechant","path":"objects/Mechant/Mechant.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
