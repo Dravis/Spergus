@@ -201,6 +201,7 @@
     {"id":{"name":"s_MartyShootIdle","path":"sprites/s_MartyShootIdle/s_MartyShootIdle.yy",},"order":3,},
     {"id":{"name":"B_Maison15","path":"sprites/B_Maison15/B_Maison15.yy",},"order":6,},
     {"id":{"name":"s_inventoryItemFrame","path":"sprites/s_inventoryItemFrame/s_inventoryItemFrame.yy",},"order":45,},
+    {"id":{"name":"s_DestroShieldWalk","path":"sprites/s_DestroShieldWalk/s_DestroShieldWalk.yy",},"order":4,},
     {"id":{"name":"B_Maison10","path":"sprites/B_Maison10/B_Maison10.yy",},"order":1,},
     {"id":{"name":"s_PMIdle","path":"sprites/s_PMIdle/s_PMIdle.yy",},"order":0,},
     {"id":{"name":"b_Gate1","path":"sprites/b_Gate1/b_Gate1.yy",},"order":19,},

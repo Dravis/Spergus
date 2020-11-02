@@ -32,6 +32,7 @@
     {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Mechant","path":"objects/Mechant/Mechant.yy",},"parent":{"name":"Destro","path":"objects/Destro/Destro.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":2,"eventType":2,"collisionObjectId":null,"parent":{"name":"Destro","path":"objects/Destro/Destro.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Potion","path":"objects/Potion/Potion.yy",},"parent":{"name":"Destro","path":"objects/Destro/Destro.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"Destro","path":"objects/Destro/Destro.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
