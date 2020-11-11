@@ -33,6 +33,7 @@
     {"isDnD":true,"eventNum":4,"eventType":2,"collisionObjectId":null,"parent":{"name":"MechantBS2","path":"objects/MechantBS2/MechantBS2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"DestroEtron","path":"objects/DestroEtron/DestroEtron.yy",},"parent":{"name":"MechantBS2","path":"objects/MechantBS2/MechantBS2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"HitboxBlik","path":"objects/HitboxBlik/HitboxBlik.yy",},"parent":{"name":"MechantBS2","path":"objects/MechantBS2/MechantBS2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"FoinBall","path":"objects/FoinBall/FoinBall.yy",},"parent":{"name":"MechantBS2","path":"objects/MechantBS2/MechantBS2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
